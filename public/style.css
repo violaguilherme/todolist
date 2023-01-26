@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --bg-color: #121215;
+    --app-color: #f0f0f5;
+    --text-color: #444448;
+
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/img.jpg);
+}
+
+#app {
+    color: var(--text-color);
+    margin-top: 3.5rem;
+    padding: 2rem;
+    background-color: white;
+    font-family: 'Fragment Mono', monospace;
+    border-radius: 3rem;
+    border: solid 2px var(--text-color);
+}
+
+header h1 {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#addButton {
+    background-color: var(--app-color);
+    color: var(--bg-color);
+    padding: .5rem;
+    margin: 0 0 1rem 1.5rem;
+    transition: .5s;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+#updateButton {
+    background-color: var(--app-color);
+    color: var(--bg-color);
+    padding: .3rem;
+    margin: 0 0 1rem 2rem;
+    transition: .5s;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+#addButton:hover {
+    background-color: var(--bg-color);
+    color: var(--app-color);
+}
+
+#updateButton:hover {
+    background-color: var(--bg-color);
+    color: var(--app-color);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    width: 50%;
+    padding: .8rem 3rem;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    border: solid 1px var(--text-color);
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+section div {
+    display: flex;
+    gap: .7rem;
+    align-items: center;
+}
+
+section ul li {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin: 1.2rem;
+    padding: .7rem;
+    color: var(--text-color);
+    border: rgba(0, 0, 0, 0.1) 1px solid;
+}
+
+section button {
+    background-color: var(--app-color);
+    color: var(--bg-color);
+    padding: .5rem;
+    transition: .5s;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+section button:hover {
+    background-color: var(--bg-color);
+    color: var(--app-color);
+}
+
+
+
